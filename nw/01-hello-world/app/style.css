@@ -1,3 +1,15 @@
-#element {
-  background-color: aquamarine;
+body {
+  background-color: hotpink;
+  color: green;
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+}
+
+p {
+  color: red;
+}
+
+div {
+  border: inherit;
 }
