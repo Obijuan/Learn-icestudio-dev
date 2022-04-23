@@ -1,0 +1,10 @@
+{
+  "name": "ex3-checkbox",
+  "main": "index.html",
+  "window": {
+    "width": 300,
+    "height": 200,
+    "min_width": 300,
+    "min_height": 200 
+  }
+}
