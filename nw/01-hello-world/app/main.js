@@ -1,30 +1,16 @@
 console.log("Holiiiii!");
 
+//-- Crear una ventana NW
 let win = nw.Window.get();
 
+//-- Imprimir en la consola la posicion inicial
 console.log("Posicion x: " + win.x);
 
+//-- Bloque donde escribir la posicion x de la ventana
 let disp1 = document.getElementById("disp1");
 
-let pos_x = 0;
-let pos_y = 0;
-let vel_x = 5;
-
+//-- Mostrar la posicion x de la ventana
+//-- cada medio segundo
 setInterval(()=>{
-  pos_x += vel_x;
-
-  if (pos_x <= 0) {
-    vel_x = -vel_x;
-    pos_x = 1;
-  }
-  if (pos_x >= 100) {
-    vel_x = -vel_x;
-  }
-  if (pos_x <= 0) {
-    vel_x = -vel_x;
-  }
   disp1.innerHTML = win.x;
-  //disp1.innerHTML = pos_x;
-  //win.x = pos_x;
-  //win.y = pos_y;
 }, 500)

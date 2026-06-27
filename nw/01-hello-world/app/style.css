@@ -1,13 +1,13 @@
 body {
-  background-color: hotpink;
+  background-color: rgb(237, 243, 157);
   color: green;
   border-width: 2px;
   border-style: solid;
-  border-color: red;
+  border-color: rgb(15, 67, 207);
 }
 
 p {
-  color: red;
+  color: rgb(0, 0, 0);
 }
 
 div {
